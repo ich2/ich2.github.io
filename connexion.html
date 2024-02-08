@@ -84,11 +84,72 @@
         <div class="row">
           <div class="col-lg-7 col-md-8 mx-auto">
             <div class="detail-box">
-              <h1>
-                Inscription
-              </h1>
+              <p>
+                Bienvenue aux nouveaux arrivant !  
+              </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="wrapper">
+          <ul class="steps">
+            <li class="is-active">Etape 1</li>
+            <li>Etape 2</li>
+            <li>Etape 3</li>
+          </ul>
+          <!-- begin form -->
+          <form class="form-wrapper">
+            <!-- begin details info form -->
+            <fieldset class="section is-active">
+              <h3>Saisir les informations de votre futur compte</h3>
+              <input type="text" name="name" id="name" placeholder="Nom">
+              <input type="text" name="email" id="email" placeholder="Email">
+              <div class="button">Suite</div>
+            </fieldset>
+            <!-- end details info form -->
+            <!-- begin user type info form -->
+            <fieldset class="section">
+              <h3>Sélectionner le type d'utilisateur</h3>
+              <div class="row cf">
+                <div class="four col">
+                  <input type="radio" name="r1" id="r1" checked>
+                  <label for="r1">
+                    <h4>Ambassadeur</h4>
+                  </label>
+                </div>
+                <div class="four col">
+                  <input type="radio" name="r1" id="r2">
+                    <label for="r2">
+                      <h4>Enseignant</h4>
+                    </label>
+                </div>
+                <div class="four col">
+                  <input type="radio" name="r1" id="r3">
+                    <label for="r3">
+                      <h4>Professeur</h4>
+                    </label>
+                </div>
+              </div>
+              <div class="button">Suite</div>
+            </fieldset>
+            <!-- end user type info form -->
+            <!-- begin password form -->
+            <fieldset class="section">
+              <h3>Entrer le mot de passe</h3>
+              <input type="password" name="password" id="password" placeholder="Password">
+              <input type="password" name="password2" id="password2" placeholder="Re-enter Password">
+              <input class="submit button" type="submit" value="Sign Up">
+            </fieldset>
+            <!-- end password form -->
+            <!-- begin account created form -->
+            <fieldset class="section">
+              <h3>Votre compte a bien été créé.</h3>
+              <!-- div class="button">Reset Form</div-->
+            </fieldset>
+            <!-- end account created form -->
+          </form>
+          <!-- end form -->
         </div>
       </div>
     </section>
