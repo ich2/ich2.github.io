@@ -1,8 +1,14 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #4863A0;
   overflow-x: hidden;
+}
+
+fieldset{
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 .layout_padding {
