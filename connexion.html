@@ -19,14 +19,16 @@
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
-
+  <!-- link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet" -->
+  
   <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
   <!-- nice select -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
 
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/style_form.css" rel="stylesheet" />
+  <!-- link href="css/style.css" rel="stylesheet" / -->
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
@@ -95,86 +97,29 @@
     </section>
   </div>
 
-  <!-- job section -->
-  <section class="job_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2></h2>
-      </div>
-      <div class="job_container">
-        <h4 class="job_heading">
-          <!-- Featured Jobs -->
-        </h4>
-      </div>
-    <section class="about_section layout_padding">
-      <div class="container">
-        <div class="wrapper">
-          <ul class="steps">
-            <li class="is-active">Etape 1</li>
-            <li>Etape 2</li>
-            <li>Etape 3</li>
-          </ul>
-          <!-- begin form -->
-          <form class="form-wrapper">
-            <!-- begin details info form -->
-            <fieldset class="section is-active">
-              <h3>Saisir les informations</h3>
-              <input type="text" name="name" id="name" placeholder="Nom">
-              <input type="text" name="email" id="email" placeholder="Email">
-              <div class="button">Suite</div>
-            </fieldset>
-            <!-- end details info form -->
-            <!-- begin user type info form -->
-            <fieldset class="section">
-              <h3>Sélectionner le type d'utilisateur</h3>
-              <div class="row cf">
-                <div class="four col">
-                  <input type="radio" name="r1" id="r1" checked>
-                  <label for="r1">
-                    <h4>Ambassadeur</h4>
-                  </label>
-                </div>
-                <div class="four col">
-                  <input type="radio" name="r1" id="r2">
-                    <label for="r2">
-                      <h4>Enseignant</h4>
-                    </label>
-                </div>
-                <div class="four col">
-                  <input type="radio" name="r1" id="r3">
-                    <label for="r3">
-                      <h4>Professeur</h4>
-                    </label>
-                </div>
-              </div>
-              <div class="button">Suite</div>
-            </fieldset>
-            <!-- end user type info form -->
-            <!-- begin password form -->
-            <fieldset class="section">
-              <h3>Entrer le mot de passe</h3>
-              <input type="password" name="password" id="password" placeholder="Password">
-              <input type="password" name="password2" id="password2" placeholder="Re-enter Password">
-              <input class="submit button" type="submit" value="Sign Up">
-            </fieldset>
-            <!-- end password form -->
-            <!-- begin account created form -->
-            <fieldset class="section">
-              <h3>Votre compte a bien été créé.</h3>
-              <!-- div class="button">Reset Form</div-->
-            </fieldset>
-            <!-- end account created form -->
-          </form>
-          <!-- end form -->
-        </div>
-      </div>
-    </section>
-    <!-- end slider section -->
-      
-    </div>
-  </section>
-  <!-- end job section -->
+  <!-- form section -->
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Créer mon compte </label>
+					<input type="text" name="txt" placeholder="Nom d'utilisateur" required="">
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Mot de passe" required="">
+					<button> Poursuivre </button>
+				</form>
+			</div>
 
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Se connecter </label>
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Mot de passe" required="">
+					<button> Poursuivre </button>
+				</form>
+			</div>
+	  </div>
+  <!-- end form section -->
   
   <!-- info section -->
   <section class="info_section ">
