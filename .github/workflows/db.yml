@@ -1,0 +1,12 @@
+name: database
+
+run-name: Setting up the database
+
+on: [push]
+
+jobs:
+  test-output:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test output
+      run: echo "Here is my test"
