@@ -1,1 +1,1 @@
-SELECT NOW();
+CREATE DATABASE users;
