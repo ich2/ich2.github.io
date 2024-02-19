@@ -11,7 +11,7 @@ jobs:
     - name: Test output
       run: echo "Here is my test"
   connect-remote:
-    runq-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - name: Show databases
