@@ -156,11 +156,21 @@
                  <!-- begin password form -->
                  <fieldset class="section">
                   <h3>Entrer le mot de passe</h3>
-                  <input type="password" name="password" id="password" placeholder="Password">
-                  <input type="password" name="password2" id="password_again" placeholder="Re-enter Password">
-                  <input class="submit button" type="submit" value="Sign Up" onclick="validate_password(event)">
+                  <input type="password" name="password" id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Doit contenir au moins un chiffre, un minuscule et une majuscule et au moins 8 caractères ou plus" required> 
+                  <!-- input type="password" name="password2" id="password_again" placeholder="Re-enter Password" -->
+                  <input class="submit button" type="submit" value="Envoyer">
                  </fieldset>
                  <!-- end password form -->
+		       
+                 <!-- password warning -->		       
+		<!-- div id="message">
+		  <h3>Le mot de passe doit contenir</h3>
+		  <p id="letter" class="invalid">Au minimum <b>une majuscule</b></p>
+		  <p id="capital" class="invalid">Au minimum <b>une minuscule</b></p>
+		  <p id="number" class="invalid">Au moins <b>un chiffre</b></p>
+		  <p id="length" class="invalid">Au minimum <b>8 caractères</b></p>
+	       </div -->
+                 <!-- end password warning -->
 		       
                  <!-- begin account created form -->
                  <fieldset class="section">
