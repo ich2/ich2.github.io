@@ -6,6 +6,6 @@ document.getElementById("marge").innerHTML = (Math.floor(Math.random() * 13)  + 
 function validate_password() {
   var x= document.getElementById("password");
   var y= document.getElementById("password_again");
-  if(x.value==y.value) return;
+  if(x.value==y.value) return x;
   else alert("Les mots de passe saisis sont différents.");
 }
