@@ -87,7 +87,7 @@ fieldset{
   cursor: pointer;
   font-size: 14px !important;
   /* font-family: 'Open Sans', sans-serif !important; */
-  /* position: absolute; */
+  position: absolute;
   right: 20px;
   bottom: 20px;
 }
