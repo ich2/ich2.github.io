@@ -126,7 +126,7 @@ fieldset{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   cursor: pointer;
-  /* position: relative; */
+  position: relative;
 }
 .form-wrapper input[type="radio"] + label:before{
   content: "✔";
