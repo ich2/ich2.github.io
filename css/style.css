@@ -137,7 +137,7 @@ fieldset{
   height: 30px;
   line-height: 30px;
   border-radius: 100%;
-  background-color: #3498db;
+  background-color: #4863A0; /* 3498db */
   color: #fff;
   display: none;
 }
@@ -149,10 +149,10 @@ fieldset{
   color: #ccc;
 }
 .form-wrapper input[type="radio"]:checked + label{
-  border: 1px solid #3498db;
+  border: 1px solid #4863A0; /* 3498db */
 }
 .form-wrapper input[type="radio"]:checked + label h4{
-  color: #3498db;
+  color: #4863A0; /* 3498db */
 }
 
 /* clearfix details */
