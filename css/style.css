@@ -2,7 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #0c0c0c;
   background-color: #4863A0;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 /* connection details */
@@ -1268,13 +1268,11 @@ $breakpoint-alpha: 480px;
   color: #fff;
   border-radius: .4em;
   overflow: hidden;
-  
   margin: 1em 0;
   min-width: 300px;
   
   tr {
     border-color: lighten(#34495E, 10%);
-    
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
   }
