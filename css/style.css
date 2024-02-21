@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  color: #0c0c0c;
+  color: #4863A0; /* #0c0c0c */
   background-color: #4863A0;
   overflow-x: auto;
 }
@@ -64,8 +64,8 @@ fieldset{
   padding-bottom: 1px;
 }
 .steps li.is-active{ /* Onglet actif */
-  border-bottom: 2px solid #3498db; /* epaisseur trait et sa couleur */
-  color: #3498db; /* couleur txt Etape 1 */
+  border-bottom: 2px solid #4863A0; /* epaisseur trait et sa couleur */
+  color: #4863A0; /* couleur txt Etape 1 */
 }
 
 /* wrapper form details */
@@ -80,7 +80,7 @@ fieldset{
   transform: scale(1, 1);
 }
 .form-wrapper .button, .form-wrapper .submit{ /* bouton Suite */
-  background-color: #3498db; /* couleur bouton */
+  background-color: #4863A0; /* couleur bouton #3498db */
   display: inline-block;
   padding: 8px 25px;
   color: #fff; /* couleur txt du bouton */
