@@ -1260,4 +1260,62 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+$breakpoint-alpha: 480px;
+
+.tables {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+  
+  margin: 1em 0;
+  min-width: 300px;
+  
+  tr {
+    border-color: lighten(#34495E, 10%);
+    
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    display: none; 
+  }
+  
+  td {
+    display: block; 
+    
+    &:first-child {
+      padding-top: .5em;
+    }
+    &:last-child {
+      padding-bottom: .5em;
+    }
+
+    &:before {
+      content: attr(data-th)": ";
+      font-weight: bold;
+
+      /* options */
+      width: 6.5em;
+      display: inline-block;
+      // end options
+      
+      @media (min-width: $breakpoint-alpha) {
+        display: none;
+      }
+    }
+
+    th, td {
+    margin: .5em 1em;
+    @media (min-width: $breakpoint-alpha) { 
+      padding: 1em !important; 
+    }
+  }
+    th, td:before {
+    color: #dd5;
+  }
+}
+  
 /*# sourceMappingURL=style.css.map */
